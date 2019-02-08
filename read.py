@@ -1,0 +1,5 @@
+file1=open(r'C:\Users\AMIT_GORE\Desktop\abc.txt','a+')
+file1.write('Multiple operation onn file is simple operation used in ML')
+a=file1.readlines()
+print(a)
+file1.close()
